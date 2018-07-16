@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:layout_height="match_parent"
+    tools:context="com.edu.ntou.smartcampus.Theme.WorkoutPlanActivity">
+
+    <TextView
+        android:paddingTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:id="@+id/linearLayout">
+
+        <TableLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow android:gravity="center" >
+                <Button android:id="@+id/btnAppend" android:text="新增"  />
+                <Button android:id="@+id/btnEdit" android:text="修改" />
+
+                <Button
+                    android:id="@+id/btnDelete"
+                    android:text="刪除" />
+
+                <Button android:text="顯示" android:id="@+id/btnShow" />
+
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tvStdList"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:background="#d6d7d7"
+        android:focusable="false" />
+
+
+
+
+</RelativeLayout>

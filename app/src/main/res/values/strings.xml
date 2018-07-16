@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SmartCampus</string>
+
+    <string name="skip">你省略導覽囉!!</string>
+    <string name="title_activity_gender_infor">GenderInfor</string>
+    <string name="title_activity_campus_map">CampusMap</string>
+    <string name="title_activity_sosbell">SosBell</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--圖標-->
+    <string name="emergency_call">緊急電話</string>
+    <string name="guard">駐警隊</string>
+    <string name="SchoolSecurityOffice">校安中心</string>
+    <string name="convenience_store">便利商店(全家)</string>
+    <string name="convenience_store1">便利商店(OK)</string>
+    <string name="school_gate">校門</string>
+    <!--路線-->
+    <string name="night_brightt_route">夜間明亮路線(黃色)</string>
+    <string name="weather_protection_route">防風雨路線(青綠色)</string>
+    <string name="flat_route">平緩路線(藍色)</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>
